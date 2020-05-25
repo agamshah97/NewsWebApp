@@ -1,13 +1,115 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.newscard
+{
+	border-radius: 5px;
+	box-shadow: 0px 3px 5px 0 rgba(100,100,100,0.4);
+	margin:2% !important;
+	padding: 1%;
+	justify-content: space-between;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.newscard_img
+{
+	object-fit: cover;
+	border-radius: 0px !important;
+}
+
+.navbar-nav
+{
+	justify-content: center;
+}
+
+.navbar-nav svg, label
+{	
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.searchbar
+{
+	width: 70%;
+	max-width:250px;
+	margin-right: 5px;
+}
+
+.mr-auto a
+{
+	color:#bbbbbb;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.mr-auto a:hover
+{
+	color:white;
+	text-decoration:none;
+}
+
+.mr-auto a:active
+{
+	color:white;
+	text-decoration:none;
+}
+
+.SpinnerContainer
+{
+	position: relative;
+	top : 250px;
+}
+
+.articleLink
+{
+	color:black;
+}
+
+.articleLink:hover
+{
+	color:black;
+	text-decoration: none;
+}
+
+.searchLink
+{
+	color:black;
+}
+
+.searchLink:hover
+{
+	color:black;
+	text-decoration: none;
+}
+
+.articlecard
+{
+	margin:2%;
+	padding : 2%;
+	box-shadow: 0px 5px 5px 0 rgba(100,100,100,0.4);
+}
+
+div.searchcard
+{
+	border: 1px solid lightgray;
+	box-shadow: 0px 5px 10px 0 rgba(100,100,100,0.6);
+	padding: 5%;
+}
+
+div.searchcard img
+{
+	width: 100%;
+	object-fit: cover;
+}
+
+.Toastify__toast, .Toastify__toast--default
+{
+	color:black !important
+}
+
+.navbar, .navbar-default {
+    background-image: linear-gradient(to right,#1b2848 0, #506bb0 100%) !important; 
+}
+
+.navbarlink--active
+{
+	color:white !important
 }
